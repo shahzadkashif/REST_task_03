@@ -40,7 +40,7 @@ class BookingListTest(APITestCase):
 
 		Booking.objects.create(flight=flight1, date="2018-01-01", user=user, passengers=2)
 		Booking.objects.create(flight=flight2, date="2019-01-01", user=user, passengers=2)
-		Booking.objects.create(flight=flight1, date="2020-01-01", user=user, passengers=2)
+		Booking.objects.create(flight=flight1, date="2021-01-01", user=user, passengers=2)
 		Booking.objects.create(flight=flight2, date="2021-01-01", user=user, passengers=2)
 
 
